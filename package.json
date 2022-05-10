@@ -1,0 +1,8 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/censoretti/ToDoList.git",
+  "author": "Totti",
+  "license": "MIT"
+}
