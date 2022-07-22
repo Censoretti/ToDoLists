@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>To do list aplication</title>
+	<link rel="stylesheet" href="index.css">
+</head>
+<body>
+	<header>
+		<h1>To do list aplication</h1>
+		<form action="" id="newTaskForm">
+			<input 
+				type="text"
+				name="newTaskInput"
+				id="newTaskInput" 
+				placeholder="What we gonna do?"
+			/>
+			<input 
+				type="submit" 
+				id="newTaskSubmit" 
+				value="Add task"
+				/>
+		</form>
+	</header>
+	<main>
+		<secttion class="taskList">
+			<h2>List</h2>
+			<div id="tasks">
+				<div class="task">
+					<!-- <div class="content">
+						<input 
+							type="text" 
+							class="text" 
+							value="Shiny tasks"
+							readonly
+						/>
+					</div>
+					<div class="actions">
+						<button class="edit">Edit</button>
+						<button class="delete">Delete</button>
+					</div> -->
+				</div>
+			</div>
+		</secttion>
+	</main>
+	<script src="index.js"></script>
+</body>
+</html>
